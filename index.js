@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#tossBtn").click(function(){
-        $(".coinImg").attr("src", "coin0.png");
+        $(".coinImg").attr("src", "https://i.ibb.co/KK22DNy/coin0.png");
         $(".coin").toggleClass("rotate");
     });
 });
