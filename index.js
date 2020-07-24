@@ -8,7 +8,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#showBtn").click(function(){
         $(".coin").removeClass("rotate");
-        $(".coinImg").attr("src", "coin" + randomNum + ".png");
+        $(".coinImg").attr("src", "coin" + randomNum + ".PNG");
         $("h1").text(key);
         $("#reset").append('<button type="reset" onclick="refreshPage()" class="btn btn-lg btn-primary">Play Again</button>');
         $('#tossBtn').replaceWith();
