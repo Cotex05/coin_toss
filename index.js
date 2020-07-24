@@ -5,9 +5,6 @@ $(document).ready(function(){
     });
 });
 
-let query = W6QmJ0f;
-//NxNWjvy
-
 $(document).ready(function(){
     $("#showBtn").click(function(){
         $(".coin").removeClass("rotate");
