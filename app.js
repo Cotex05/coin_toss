@@ -1,5 +1,6 @@
 var randomNum = Math.floor((Math.random()*2) + 1);
 var key = "";
+var query = "";
 
 function refreshPage() {
     window.location.reload();
@@ -18,7 +19,6 @@ btn.onclick = function () {
     }
 
     var ans = "";
-    var query = "";
     
     if (randomNum === 1){
         ans = "Head!";
