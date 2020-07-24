@@ -18,11 +18,14 @@ btn.onclick = function () {
     }
 
     var ans = "";
-
+    var query = "";
+    
     if (randomNum === 1){
         ans = "Head!";
+        query = "NxNWjvy";
     } else {
         ans = "Tail!"
+        query = "W6QmJ0f";
     }
 
     if (selectedValue == randomNum ){
