@@ -1,6 +1,6 @@
 var randomNum = Math.floor((Math.random()*2) + 1);
 var key = "";
-var query = "";
+var query;
 
 function refreshPage() {
     window.location.reload();
