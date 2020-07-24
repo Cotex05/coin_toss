@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#tossBtn").click(function(){
-        $(".coinImg").attr("src", "images/coin0.png");
+        $(".coinImg").attr("src", "coin0.png");
         $(".coin").toggleClass("rotate");
     });
 });
@@ -8,7 +8,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#showBtn").click(function(){
         $(".coin").removeClass("rotate");
-        $(".coinImg").attr("src", "/images/coin" + randomNum + ".png");
+        $(".coinImg").attr("src", "coin" + randomNum + ".png");
         $("h1").text(key);
         $("#reset").append('<button type="reset" onclick="refreshPage()" class="btn btn-lg btn-primary">Play Again</button>');
         $('#tossBtn').replaceWith();
